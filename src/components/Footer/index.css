@@ -1,0 +1,64 @@
+.footer-container {
+  display: flex;
+  color: rgb(83, 61, 46);
+}
+
+.footer-subcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.25fr;
+  margin: 100px 125px 125px 0;
+}
+
+.footer-container_logo {
+  display: block;
+  margin: 0;
+}
+
+.footer-logo {
+  margin: 75px;
+  width: 7.5em;
+}
+
+.footer-innercontainer {
+  padding: 10px 0 20px 50px;
+}
+
+.footer-innercontainer_title {
+  font-weight: bold;
+  border-bottom: 1.25px solid rgb(83, 61, 46);
+  letter-spacing: 1.5px;
+}
+
+.footer-list_value {
+  margin: 1.25em auto;
+}
+
+.footer-list_value > span {
+  cursor: pointer;
+}
+
+.footer-list_value_contact {
+  display: flex;
+  align-items: center;
+}
+
+.footer-list_value_contact_icon {
+  width: 15px;
+  margin: auto 7.5px;
+}
+
+.footer-list_container_icon > span {
+  cursor: default;
+}
+
+.footer-list_icon {
+  margin-right: 10px;
+  width: 25px;
+  cursor: pointer;
+}
+
+@media (width<900px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,27 @@
+.home-container {
+  margin: 125px 150px 200px 150px;
+}
+
+.home-subcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 50px auto;
+}
+
+.home-subcontainer_options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid rgb(210, 203, 198);
+  padding: 0 0 50px 0;
+}
+
+.home-input,
+.home-select {
+  box-sizing: border-box;
+  border: 1.5px solid rgb(210, 203, 198);
+  margin: 5px auto 0 auto;
+  padding: 10px 10px;
+  width: 200px;
+}

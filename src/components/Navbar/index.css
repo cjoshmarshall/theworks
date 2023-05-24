@@ -1,0 +1,44 @@
+.navbar-container {
+  padding: 25px;
+  color: rgb(255, 255, 255);
+  border-bottom: 1.5px solid rgb(255, 255, 255, 0.5);
+}
+
+.navbar-subcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.navbar-logo {
+  margin: auto 3.25em;
+  width: 5.5em;
+}
+
+.navbar-list {
+  display: flex;
+  margin: 0;
+}
+
+.navbar-list_value {
+  margin: auto 20px;
+  font-size: 1rem;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  margin: 20px;
+  width: 2em;
+  cursor: pointer;
+}
+
+.navbar-icon_user {
+  width: 2.5em;
+}
